@@ -1,0 +1,130 @@
+
+.top{
+    display:flex;
+  justify-content: space-between;
+}
+.body{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.body img{
+   border: 3px solid black;
+   border-radius: 10px;
+}
+
+
+body{
+    background-color: #f7f7f7;
+}
+
+.text{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #808080;
+}
+
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    background-color: cadetblue;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sitedes{
+    text-align: center;
+}
+
+.textStuff{
+    color: white;
+    background-color: cadetblue;
+}
+
+.imgAndText{
+    display: flex;
+    justify-content: space-evenly;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+.bigText{
+    color: black;
+
+}
+
+.coolyes{
+    display: flex;
+    justify-content: flex-end;
+  
+}
+.via{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item img{
+    border:3px solid black;
+    border-radius: 10px;
+
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+position: absolute;
+
+top: 40%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: red;
+opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.2;
+}
+
+.info img{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.textStuff h1{
+    margin-left: 10px;
+}
